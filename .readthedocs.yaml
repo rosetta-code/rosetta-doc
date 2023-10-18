@@ -8,8 +8,9 @@ build:
     python: miniconda3-4.7
 
 # Declare Python requirements
-conda:
-  environment: environment-min.yml
+python:
+  install:
+    - requirements: requirements.txt
 
 # Build documentation using the configuration file below
 sphinx:

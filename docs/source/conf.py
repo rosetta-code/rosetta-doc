@@ -49,13 +49,18 @@ exclude_patterns = []
 primary_domain = None
 
 # -- HTML output -------------------------------------------------------------
-# The theme to use for HTML and HTML Help pages.
-html_theme = "alabaster"
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+html_title = "Rosetta Documentation"
+html_theme = "furo"
+html_theme_options = {
+    "light_logo": "rosetta-logo-dark.svg",
+    "dark_logo": "rosetta-logo-light.svg",
+    "sidebar_hide_name": True,
+    "announcement": None,
+    "source_repository": "https://github.com/rosetta-code/rosetta-doc/",
+    "source_branch": "main",
+    "source_directory": "docs/source/",
+}
 
 # Render some text using Pygments
 # pygments_style = ''
