@@ -54,6 +54,14 @@ html_theme = "furo"
 html_theme_options = {
     "light_logo": "rosetta-logo-dark.svg",
     "dark_logo": "rosetta-logo-light.svg",
+    "light_css_variables": {
+        "color-brand-primary": "#13294B", # based on UNC's Navy
+        "color-brand-content": "#13294B",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#4B9CD3", # based on UNC's Carolina Blue
+        "color-brand-content": "#4B9CD3",
+    },
     "sidebar_hide_name": True,
     "announcement": None,
     "source_repository": "https://github.com/rosetta-code/rosetta-doc/",
