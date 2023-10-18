@@ -29,7 +29,6 @@ extensions = [
     "sphinx.ext.napoleon",  # convert Google/NumPy-style docstrings to RST
     "sphinxcontrib.matlab",  # process Matlab code comments with Sphinx
     "myst_parser",  # convert Markdown (MyST) to RST
-    "sphinx_tabs.tabs",  # implement tabs for different languages
 ]
 
 # Add any paths that contain templates here, relative to this directory.
