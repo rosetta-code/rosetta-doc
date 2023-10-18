@@ -9,7 +9,7 @@ build:
 
 # Declare Python requirements
 conda:
-  environment: environment.yml
+  environment: environment-min.yml
 
 # Build documentation using the configuration file below
 sphinx:
