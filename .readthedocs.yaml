@@ -1,13 +1,16 @@
+# Required by readthedocs
 version: 2
 
+# Set the OS, Python version etc.
 build:
   os: ubuntu-22.04
   tools:
-    python: "3.11"
+    python: miniconda3-4.7
 
-python:
-  install:
-    - requirements: requirements.txt
+# Declare Python requirements
+conda:
+  environment: environment.yml
 
+# Build documentation using the configuration file below
 sphinx:
   configuration: docs/source/conf.py
