@@ -1,4 +1,6 @@
+# Media
+
 ```{toctree}
 :hidden:
-adapters/anatomy.md
+types
 ```

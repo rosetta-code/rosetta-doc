@@ -1,4 +1,6 @@
+# Components
+
 ```{toctree}
 :hidden:
-experiments/anatomy.md
+base.md
 ```

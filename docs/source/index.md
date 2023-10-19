@@ -9,17 +9,25 @@
     This toctree (table of contents tree) is required by Sphinx.
     Each file that should be included must be listed as document names
     (i.e. without file extension, using / as directory separators).
+
+    Note that this file also does not include any actual content for
+    the website. This is because all text content for the homepage is
+    defined in `docs/source/_template/home.html` so that the homepage
+    can use custom HTML, and that the rest of the site can make use of
+    the table of contents.
 -->
 
 ```{toctree}
-:maxdepth: 2
 :hidden:
-start.md
-components.md
-experiments.md
-adapters.md
-media.md
-contribute.md
+start/index
+components/index
+experiments/index
+adapters/index
+media/index
 ```
 
-# Welcome to Rosetta's documentation!
+```{toctree}
+:caption: Development
+:hidden:
+contribute/index
+```

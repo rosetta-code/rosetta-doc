@@ -1,4 +1,6 @@
+# Adapters
+
 ```{toctree}
 :hidden:
-components/base.md
+anatomy.md
 ```
