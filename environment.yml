@@ -1,10 +1,18 @@
 name: rosetta-doc
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - sphinx=7.2.6
+  - sphinx
   - furo
   - sphinxcontrib-matlabdomain
   - myst-parser
   - pygments
+  - sphinx-copybutton
+  - sphinxext-opengraph
+  - sphinxcontrib-bibtex
+  - sphinx-design
+  - sphinx-prompt
+  - sphinx-autobuild
+  - sphinx-favicon
 prefix: /opt/miniconda3/envs/rosetta-doc
