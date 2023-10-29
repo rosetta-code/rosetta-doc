@@ -51,7 +51,7 @@ You can create an isolated copy of Rosetta for the language of your choice by cr
 :::{admonition} Configuring VSCode for Rosetta
 :class: info
 
-Rosetta repositories contain VSCode [workspace files](https://code.visualstudio.com/docs/editor/workspaces) that allow extensions to be downloaded and installed in a self-contained way. You can simply open the workspace file in the root of the repository (e.g. `rosetta-doc.code-workspace` for Rosetta's documentation) and install the recommended extensions.
+Rosetta repositories contain VSCode [workspace files](https://code.visualstudio.com/docs/editor/workspaces) that allow extensions to be downloaded and installed in a self-contained way. You can simply use the VSCode folder (`.vscode`) in the root folder to install the recommended extensions.
 :::
 
 The appropriate way to clone Rosetta depends on your desired language:
