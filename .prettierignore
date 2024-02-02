@@ -1,0 +1,8 @@
+# Ignore artifacts
+docs/_build
+
+# Ignore all HTML files
+**/*.html
+
+# Ignore Glossary source file (it violates Prettier's formatting conventions by necessity)
+docs/glossary.md
