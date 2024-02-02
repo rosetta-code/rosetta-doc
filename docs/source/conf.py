@@ -56,11 +56,11 @@ html_theme_options = {
     "light_logo": "brand/rosetta-logo-dark.svg",
     "dark_logo": "brand/rosetta-logo-light.svg",
     "light_css_variables": {
-        "color-brand-primary": "#13294B", # based on UNC's Navy
+        "color-brand-primary": "#13294B",  # based on UNC's Navy
         "color-brand-content": "#13294B",
     },
     "dark_css_variables": {
-        "color-brand-primary": "#4B9CD3", # based on UNC's Carolina Blue
+        "color-brand-primary": "#4B9CD3",  # based on UNC's Carolina Blue
         "color-brand-content": "#4B9CD3",
     },
     "sidebar_hide_name": True,
@@ -78,10 +78,7 @@ html_theme_options = {
     "source_directory": "docs/source/",
 }
 favicons = [
-    {
-        "rel": "icon",
-        "href": "brand/rosetta-favicon.png"
-    },
+    {"rel": "icon", "href": "brand/rosetta-favicon.png"},
     {
         "rel": "apple-touch-icon",
         "href": "brand/rosetta-favicon.png",
@@ -90,7 +87,7 @@ favicons = [
 
 # -- Modifying HTML for landing (front) page ---------------------------------
 templates_path = ["_template"]
-html_additional_pages = {'index': 'home.html'}
+html_additional_pages = {"index": "home.html"}
 
 # -- MyST: enable additional features ----------------------------------------
 myst_enable_extensions = [
@@ -102,6 +99,6 @@ myst_enable_extensions = [
 myst_heading_anchors = 3  # create HTML tags for up to 3 heading levels
 
 # -- BibTex: configure where citations live and how they should be rendered --
-bibtex_bibfiles = ['cite.bib']
+bibtex_bibfiles = ["cite.bib"]
 bibtex_default_style = "unsrt"
 bibtex_reference_style = "author_year"
