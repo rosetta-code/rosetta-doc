@@ -57,7 +57,7 @@ sphinx-build -M html docs/source/ docs/build/
 Alternatively, you can automatically rebuild your local copy with every change you make using `sphinx-autobuild`:
 
 :::{code-block} none
-sphinx-autobuild docs/source docs/_build/html
+sphinx-autobuild docs/source docs/\_build/html
 :::
 
 If you decide to suggest changes to the Rosetta documentation, please remember to follow [our project's principles](project:./principles.md) and [our style guide](project:./style.md).
