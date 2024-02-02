@@ -1,6 +1,6 @@
 # Install Rosetta
 
-## Get a copy of Rosetta
+## Get a released copy of Rosetta
 Rosetta maintains different repositories for different programming languages. You can find instructions to install Rosetta for a language of your choice by selecting a language below.
 
 :::::{tab-set}
@@ -31,7 +31,7 @@ Rosetta maintains different repositories for different programming languages. Yo
   Some {term}`Adapters<Adapter>` can only be called using certain languages. For example, the Adapter for the Verasonics Vantage research ultrasound scanner system can only be called through Matlab because the Vantage API can only be called by Matlab. If you intend to work with a specific simulator or physical hardware configuration, make sure that you are choosing the version of Rosetta that's written in the appropriate language.
 :::
 
-### Get Rosetta for development
+## Get Rosetta for development
 <!--Note: this heading name must be retained due to a link in contribute/index.html-->
 You can create an isolated copy of Rosetta for the language of your choice by creating your own {term}`repositories<Repository>` using {term}`Git`. This will let you pull (get the latest updates) from our repo and push (share potential changes you make) in a controlled and convenient way. To set this up:
 
@@ -51,7 +51,7 @@ You can create an isolated copy of Rosetta for the language of your choice by cr
 :::{admonition} Configuring VSCode for Rosetta
 :class: info
 
-Rosetta repositories contain VSCode [workspace files](https://code.visualstudio.com/docs/editor/workspaces) that allow extensions to be downloaded and installed in a self-contained way. You can simply use the VSCode folder (`.vscode`) in the root folder to install the recommended extensions.
+Rosetta repositories contain VSCode settings and extensions files that allow extensions to be downloaded and installed in a self-contained way. You can simply use the VSCode folder (`.vscode`) in the root folder to install the recommended extensions.
 :::
 
 The appropriate way to clone Rosetta depends on your desired language:
@@ -79,10 +79,10 @@ The appropriate way to clone Rosetta depends on your desired language:
 
   :::::{dropdown} Develop Rosetta using Pip Virtual Environment
 
-  We can use Python's virtual environment (`venv`) feature. This involves defining a virtual environment in a folder called `env` inside our repository. To do so, navigate your console into the newly-created folder, then run:
+  We can use Python's virtual environment (`venv`) feature. This involves defining a virtual environment in a folder called `env-name` inside our repository. To do so, navigate your console into the newly-created folder, then run:
   
   :::{code-block} python
-  python3 -m venv env
+  python3 -m venv env-name
   :::
 
   We can install all Rosetta-relevant Python packages in our virtual environment using the `requirements.txt` file:
@@ -90,8 +90,9 @@ The appropriate way to clone Rosetta depends on your desired language:
   :::{code-block} python
   pip install -r requirements.txt
   :::
+  
+  If we want to treat the repo that we cloned as its own package as if we downloaded it from Pip, we can run:
 
-  ???
 
   :::{code-block} python
   pip install -e .
@@ -112,13 +113,11 @@ The appropriate way to clone Rosetta depends on your desired language:
   conda env create -n env-name -f environment.yml
   :::
   
-  If you want to develop Rosetta for Python using a Conda-based package manager, your ***base*** environment needs to have `conda-build`, the tools to develop new packages using Conda.
-
-  To create a Conda environment 
+  Your ***base*** environment also needs to have `conda-build`, the tools to develop new packages using Conda. With this, we can call `conda-develop` to install the Rosetta package for Python in "development mode" from the repo that we just cloned.
 
   :::{code-block} python
   conda-install -n base conda-build
-  conda-develop /path/to/git/repo/
+  conda-develop ./rosetta-py3
   :::
   :::::
 
