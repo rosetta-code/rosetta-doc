@@ -14,8 +14,6 @@ Adapter
  
     More information can be found in the [Adapters](project:./adapters/index.md) section of this document.
 
-More information can be found in the [Adapters](project:./adapters/index.md) section of this document.
-
 Component
 : A {term}`class<Class>` (or an {term}`instance<Instance>` of an {term}`object<Object>` thereof) that defines a particular aspect of an ultrasound/acoustic experiment or environment.
 
