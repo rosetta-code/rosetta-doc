@@ -38,4 +38,5 @@ media/index
 cite
 contribute
 principles
+style
 :::
