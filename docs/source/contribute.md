@@ -52,6 +52,4 @@ If you decide to suggest changes to the Rosetta documentation, please remember t
 
 ## License
 
-Rosetta defines its relationships with its users under the LICENSENAME license.
-
-For more information about the license and how we see it as a part of Rosetta's core principles, please [take a look at this page](project:./principles.md).
+Rosetta defines its relationships with its users through license files in each repository. We describe our licenses and how they relate to the Rosetta project's belief in [the page on our core principles](project:./principles.md).

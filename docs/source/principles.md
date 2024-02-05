@@ -12,19 +12,25 @@ Rosetta is meant to help creators, companies, and governments around the world, 
 
 ## How are these expectations upheld?
 
+You (the end user), people who participate in discussions and developments of Rosetta (community members), and repository managers (moderators) are expected to hold each other accountable to these rules without exception. Moderators reserve the right to remove or refuse participation from any person who violates these rules.
+
 ### By community members
 
 Users of Rosetta's codebase are expected to be:
 
-- **Respectful of users and developers**. Rosetta community members are expected to treat users and contributors with dignity and respect. Discrimination, hate speech, bad faith arguments, and similar behaviors are not tolerated.
+- **Respectful of users and developers**. Rosetta community members are expected to treat users and contributors with dignity and respect. Discrimination, hate speech, bad faith arguments, harrassment, offensive comments, and similar behaviors are not tolerated.
 
-- **Courteous to a diverse community**. Rosetta is open to users from countless backgrounds around the world - including those who perceive or interact with the world in a different way than you. Please be mindful of their experiences, as well, and participate in the Rosetta community so that they also feel welcome.
+- **Courteous to a diverse community**. Rosetta is open to users from countless backgrounds around the world. Please be mindful of their experiences, as well, and participate in the Rosetta community so that everyone can feel welcome. This includes people who may:
+
+  - **Come from different backgrounds**, such as those based on gender, sex, age, nationality, education, religion, and appearance
+  - **Perceive or interact with the world in a different way than you** based on different disabilities, neurodivergence, and social class
+  - **Rely on different past experiences** such as the varying amounts of technical training they received or their English skills
 
 - **Open and honest in public interactions**. You should follow community guidelines when you participate in Rosetta's GitHub community. You should also provide as much specific, relevant information as you can when you're seeking help.
 
 - **Encouraged to make the most out of Rosetta**. Rosetta started as a tool for researchers in medical ultrasound imaging, but it could also be used in other ways. Whether you're trying out open source libraries as a hobby, you're in an academic research laboratory, or you're developing a product for commercial use, you are encouraged to use Rosetta as you see fit.
 
-### By contributors to Rosetta's code and documentation
+### By contributors to Rosetta
 
 Contributors to Rosetta's codebase, including its documentation and code comments, should be:
 
@@ -36,7 +42,7 @@ Contributors to Rosetta's codebase, including its documentation and code comment
 
 - **Approachable, respectable, and timeless**. Try to write and act like a knowledgeable friend who understands what the user wants to do. Choppy sentences, slang, and time-based references (like "new" or "current") may not be good ideas to use.
 
-### By Rosetta and its developers
+### Between the Rosetta team and its developers
 
 If you become a contributor to the Rosetta project by submitting a pull request, you'll have certain rights and responsibilities from Rosetta, and you'll grant the Rosetta project certain permissions in return. You will generally bound by [GitHub's Terms of Service](https://help.github.com/en/github/site-policy/github-terms-of-service#6-contributions-under-repository-license), which explicitly grants the Rosetta project an "input=output" policy.
 
