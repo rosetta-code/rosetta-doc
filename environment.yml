@@ -15,4 +15,5 @@ dependencies:
   - sphinx-prompt
   - sphinx-autobuild
   - sphinx-favicon
+  - sphinx-hoverxref
 prefix: /opt/miniconda3/envs/rosetta-doc
