@@ -34,7 +34,6 @@ extensions = [
     "sphinx_design",  # add more modern UI features
     "sphinx_copybutton",  # add copy button to code blocks
     "sphinx_favicon",  # customize favicons
-    "hoverxref.extension",  # add cross-references with mouse hover
     "sphinxext.opengraph",  # add Open Graph metadata
     "sphinxcontrib.matlab",  # process Matlab code comments with Sphinx
 ]
@@ -89,15 +88,6 @@ favicons = [
 # -- Modifying HTML for landing (front) page ---------------------------------
 templates_path = ["_template"]
 html_additional_pages = {"index": "home.html"}
-
-# -- Configure mouse-hover tooltips ------------------------------------------
-hoverxref_role_types = {
-    "hoverxref": "tooltip",  # show tooltip for standard cross-reference
-    "term": "tooltip",  # show tooltip for glossary terms
-    "cite": "tooltip",  # show tooltip for citations
-}
-hoverxref_roles = ["term"]  # show tooltip for glossary terms
-hoverxref_domains = ["cite"]  # show tooltip for citations
 
 # -- MyST: enable additional features ----------------------------------------
 myst_enable_extensions = [
