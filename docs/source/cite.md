@@ -10,7 +10,7 @@ For academic use of Rosetta, please cite the paper by {cite:cauthors}`yokoyamaRo
 :language: none
 :::
 
-You can use BibTeX to format citations for many styles, including those for the MLA, APA, IEEE, and the Chicago Manual. [BibTeX Online](https://bibtex.online/) is one of many tools you could use for this, if necessary.
+You can use BibTeX to format citations for many styles, including those for the [MLA](https://www.mla.org/MLA-Style), [APA](https://apastyle.apa.org/[), [IEEE](https://ieeeauthorcenter.ieee.org/), and [the Chicago Manual](https://www.chicagomanualofstyle.org/home.html). [BibTeX Online](https://bibtex.online/) is one of many tools you could use for this, if necessary.
 
 ## In other software libraries
 
