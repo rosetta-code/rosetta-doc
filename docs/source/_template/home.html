@@ -62,8 +62,15 @@
     }
     @media (min-width:67em) {
         /* 67em and 18.5em are used by the Furo theme for switching between desktop/mobile views */
-        .sidebar-drawer{display:none}
+        /* Force mobile header style to be used even if desktop view is expected */
+        .mobile-header, .mobile-header .header-left, .mobile-header .header-left *, .mobile-header .header-right{display:flex;}
+        .mobile-header .header-left, .mobile-header .header-right{height: var(--header-height); padding: 0 var(--header-padding);}
+        .mobile-header{align-items:center; justify-content:space-between; position:sticky; top:0;}
+        .nav-overlay-icon .icon, .theme-toggle .theme-icon-when-auto, .theme-toggle .theme-icon-when-dark, .theme-toggle .theme-icon-when-light{height:1.25rem; width:1.25rem}
+        .sidebar-drawer{height:100vh; left:-15em; position:fixed; top:0; width:15em;}
+        /* Forcibly override Furo theme styles with manually-defined style rules */
         #header,#footer{margin-left:calc((50% - 18.5em)*0.75)}
+        .page{flex-direction:column; justify-content:center}
         .page .main .content .slide{flex-direction:row; padding:0;}
         .page .main .content .section-2col {width:50%}
     }
@@ -102,21 +109,6 @@
         </div>
     </aside>
     <div class="main" style="flex-direction:column;">
-        <div class="content" id="header">
-            <div class="article-container">
-                <div class="content-icon-container">
-                    {#- Theme toggle -#}
-                    <div class="theme-toggle-container theme-toggle-content">
-                    <button class="theme-toggle">
-                        <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-                        <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
-                        <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
-                        <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
-                    </button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="content" style="width:100%; padding:0; overflow-x:hidden;">
             <div class="landing">
                 <div class="landing-caption" style="min-height:min(30vw,30vh); width:max(300px,40vw); ">
