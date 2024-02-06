@@ -17,17 +17,31 @@
     the table of contents.
 -->
 
-```{toctree}
-:hidden:
+:::{toctree}
+:caption: Getting started
 start/index
+examples/index
+:::
+
+:::{toctree}
+:caption: How do I use Rosetta?
 components/index
 experiments/index
 adapters/index
 media/index
-```
+:::
 
-```{toctree}
-:caption: Development
-:hidden:
-contribute/index
-```
+:::{toctree}
+:caption: How can I help?
+cite
+develop
+contribute
+principles
+:::
+
+:::{toctree}
+:caption: Reference
+reference
+glossary
+style
+:::

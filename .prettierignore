@@ -1,0 +1,10 @@
+# Ignore artifacts
+docs/_build
+
+# Ignore all HTML files
+**/*.html
+
+# Ignore select source files that violate Prettier's formatting conventions by necessity
+docs/source/index.md
+docs/source/contribute.md
+docs/source/glossary.md
