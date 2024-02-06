@@ -18,10 +18,9 @@
 -->
 
 :::{toctree}
-:hidden:
+:caption: Getting started
 start/index
 examples/index
-glossary
 :::
 
 :::{toctree}
@@ -34,9 +33,15 @@ media/index
 
 :::{toctree}
 :caption: How can I help?
-:hidden:
 cite
+develop
 contribute
 principles
+:::
+
+:::{toctree}
+:caption: Reference
+reference
+glossary
 style
 :::

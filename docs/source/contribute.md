@@ -18,11 +18,11 @@ If you have ideas for new features that you'd like to see in Rosetta, tell the w
 
 Are you tired of waiting for someone else to fix a bug or add a feature? You can directly contribute to Rosetta by following these three simple steps:
 
-1. **Set up your environment.** If you haven't done so already, {term}`fork<Fork>` off the Rosetta repo of your choice and create your development environment. The section describing how to install Rosetta contains [a walkthrough on how to do this](project:/start/install.md#get-rosetta-for-development).
+1. **Set up your environment.** If you haven't done so already, {term}`fork<Fork>` off the Rosetta repo of your choice and create your development environment. The section describing how to install Rosetta contains [a walkthrough on how to do this](project:/develop.md).
 
 2. **Make your contribution.** Make the changes you see fit. You can record changes you make in Git by periodically making {term}`commits<Commit>`.
 
-3. **Submit your work.** {term}`Push` your changes to your own {term}`fork<Fork>` of Rosetta on GitHub, then submit a {term}`pull request<Pull request>` for your work.
+3. **Submit your work.** {term}`Push` your changes to your own {term}`fork<Fork>` of Rosetta on GitHub, then submit a {term}`pull request.<Pull request>` for your work.
 
 % There are some additional steps to keep in mind if your contribution involves creating a new {term}`Adapter` or our documentation. Please take a look at the additional guidance below:
 %

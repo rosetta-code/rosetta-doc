@@ -5,5 +5,6 @@ docs/_build
 **/*.html
 
 # Ignore select source files that violate Prettier's formatting conventions by necessity
+docs/source/index.md
 docs/source/contribute.md
 docs/source/glossary.md

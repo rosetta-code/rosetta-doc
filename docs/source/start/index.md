@@ -1,45 +1,55 @@
 # About Rosetta
+
 ```{toctree}
 :hidden:
 install
+verify
 contact
 ```
 
-Welcome to the documentation for {term}`Rosetta`, the Reusable Organizer for Simulating, Experimenting, Teaching, and Testing in Acoustics. It's an open-source, cross-platform tool to describe, manipulate, and implement ultrasound transmissions in simulations *and* physical hardware using a single codebase.
-
-Rosetta aims to create a community of engineers from various backgrounds can share and implement new techniques in a standardized, transparent, and democratic way. While it was conceived and designed as a way to accelerate medical ultrasound beamforming techniques, it can also be used to simplify and standardize descriptions of acoustic experiments in other fields, as well.
+Welcome to the documentation for {term}`Rosetta`, the Reusable Organizer for Simulating, Experimenting, Teaching, and Testing in Acoustics. It's an open-source, cross-platform tool to describe, manipulate, and implement ultrasound transmissions in simulations _and_ physical hardware using a single codebase.
 
 This document describes key concepts and procedures used in Rosetta, as well as guidance documentations for Rosetta's APIs.
 
 ## Getting started
+
 To get started, you can:
 
-* Learn more about Rosetta and how it could help your engineering needs in [our homepage](project:/index.md)
+::::{grid} 1 2 2 3
+:gutter: 3 3 4 5
 
-* [Get Rosetta for an environment of your choice](project:./install.md)
-
-* [Contribute to Rosetta](project:../contribute.md) by reporting issues or submitting changes
-
-* Get to know the Rosetta project's [core principles](project:../principles.md)
-
-* Read Rosetta's [licensing terms](project:../contribute.md#license) and [our expectations](project:../cite.md) when you build off of our work
+:::{grid-item-card} Discover Rosetta
+:link: ../index.html
+Learn more about Rosetta and how it could help your engineering needs.
+:::
+:::{grid-item-card} Get started
+:link: ./install.html
+Get Rosetta by trying out Rosetta for an environment of your choice.
+:::
+:::{grid-item-card} Read our User Guide
+:link: ../components/index.html
+Learn about in-depth ideas and key concepts behind the technology that makes Rosetta work.
+:::
+:::{grid-item-card} Learn our principles
+:link: ../principles.html
+Get to know the core beliefs, values, and objectives held by the community members and moderators of Rosetta.
+:::
+:::{grid-item-card} Contribute to Rosetta
+:link: ../contribute.html
+Want to add to this text or enhance our code? Learn about the process of reporting issues and submitting changes to Rosetta.
+:::
+:::{grid-item-card} Describe our API
+:link: /index.html
+Read detailed descriptions about what code exists in Rosetta and which concepts will be used.
+:::
+::::
 
 ## Anatomy of Rosetta
+
 The Rosetta API is organized in identical ways regardless of what programming language you use to interface with it. Rosetta consists of three main parts:
 
-### Components
-{term}`Components<Component>` describe different hardware, software, and processes that involve ultrasound. Components are the fundamental building blocks for Rosetta; just like how every computer has a list of parts (a bill of materials) and standardized ways for parts to be assembled (standard operating procedures), every ultrasound-based operation in Rosetta relies upon some action or object that is described using a Component.
+- **{term}`Components<Component>`:** hardware, software, and processes that involve ultrasound; Components are the fundamental building blocks for Rosetta.
 
-More information can be found in the [Components](project:../components/index.md) section of this document.
+- **{term}`Experiments<Experiment>`:** a combination of Components related to a single set of acoustic signal emission and acquisition.
 
-Note that various types of Components are defined in Rosetta. This includes various subcategories that are listed under the Components section of this document, as well as definitions of material properties ({term}`Medium` objects). However, the Medium class is detailed [in its own section](project:../media/index.md) due to its diversity in how it can be defined.
-
-### Experiments
-{term}`Experiments<Experiment>` combines particular sets of Components and defines how they relate to each other. Experiments outline what signals are transmitted, when and where they are transmitted from, what it travels through etc. Thus, Experiments give context to how Components come together.
-
-More information can be found in the [Experiments](project:../experiments/index.md) section of this document.
-
-### Adapters
-Although Rosetta Components and Experiments are platform-independent on their own, it can be helpful to implement them in specific environments. For example, you may want to implement an Experiment in a particular hardware system. This translation operation can be done by calling an {term}`Adapters<Adapter>`.
-
-More information can be found in the [Adapters](project:../adapters/index.md) section of this document.
+- **{term}`Adapters<Adapter>`:** a software module that implements an Experiment described using Rosetta into another platform.
