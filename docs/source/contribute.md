@@ -20,9 +20,21 @@ Are you tired of waiting for someone else to fix a bug or add a feature? You can
 
 1. **Set up your environment.** If you haven't done so already, {term}`fork<Fork>` off the Rosetta repo of your choice and create your development environment. The section describing how to install Rosetta contains [a walkthrough on how to do this](project:/develop.md).
 
-2. **Make your contribution.** Make the changes you see fit. You can record changes you make in Git by periodically making {term}`commits<Commit>`.
+2. **Make your contribution.** Make the changes you see fit. You can record changes you make in Git by periodically making {term}`commits<Commit>` to your local repo.
 
-3. **Submit your work.** {term}`Push` your changes to your own {term}`fork<Fork>` of Rosetta on GitHub, then submit a {term}`pull request.<Pull request>` for your work.
+3. **Submit your work.** {term}`Push` your changes to your own {term}`fork<Fork>` of Rosetta on GitHub, then submit a {term}`pull request<Pull request>` for your work. To have your pull request accepted, you will need to:
+
+    1. Make a valid push to a `dev` or feature branch
+
+    2. Describe the change that you proposed and why it's helpful
+
+    3. Pass a license compliance test automatically performed by FOSSA
+
+    4. *Unless you're changing documentation:* Pass tests to make sure that your code doesn't break things
+
+    5. *Main branch releases only:* pass a security test automatically performed by Snyk
+
+    6. Receive approval of your push from a Rosetta moderator
 
 % There are some additional steps to keep in mind if your contribution involves creating a new {term}`Adapter` or our documentation. Please take a look at the additional guidance below:
 %
