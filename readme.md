@@ -15,6 +15,10 @@ This repository contains the source files used to auto-generate documentation fo
 
     `make.bat` and `Makefile` = Configuration files to build this documentation.
 
+`pyproject.toml`, `.gitignore`, `.prettierignore`, and `.readthedocs.yaml` = Additional configurations for Git, Prettier (code auto-reformatting), and ReadTheDocs (web provider for the live version of this documentation).
+
+`requirements.txt` and `environment.yml` = Packages to recreate the development environment for this documentation using Pip and Conda respectively.
+
 ## Building the document
 
 To render the Sphinx document as HTML files, run the command below.
@@ -23,4 +27,4 @@ To render the Sphinx document as HTML files, run the command below.
 
 ## License
 
-![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_large)
+![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=large)
