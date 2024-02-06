@@ -2,11 +2,11 @@
 
 Rosetta is meant to help creators, companies, and governments around the world, across industries, and at every skill level. This means that Rosetta's design, tools, writing, and decisions are the most useful when they're:
 
-- Simple and flexible
+- Easy, simple, and flexible to use
 
 - Inclusive and friendly to a global audience
 
-- Clear and transparent
+- Explicit, clear, and transparent to understand
 
 - Accessible and empowering to users
 

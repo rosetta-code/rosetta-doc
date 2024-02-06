@@ -15,7 +15,7 @@
 
 # -- Project information -----------------------------------------------------
 project = "Rosetta"
-copyright = "2023, Kéita A. Yokoyama"
+copyright = "2023-2024, Rosetta Contributors"
 author = "Kéita A. Yokoyama"
 
 # The full version, including alpha/beta/rc tags
@@ -52,16 +52,28 @@ primary_domain = None
 html_static_path = ["_static"]
 html_title = "Rosetta Documentation"
 html_theme = "furo"
+html_theme_options_maincolor_lighttheme = "#13294B"  # based on UNC's Navy
+html_theme_options_maincolor_darktheme = "#4B9CD3"  # based on UNC's Carolina Blue
+html_theme_options_header_padding = "1rem"
+html_theme_options_header_height = (
+    "calc("
+    + "(2 * #{var(--sidebar-item-line-height)}) "
+    + "+ (8 * #{var(--sidebar-item-spacing-vertical)}))"
+)
 html_theme_options = {
     "light_logo": "brand/rosetta-logo-dark.svg",
     "dark_logo": "brand/rosetta-logo-light.svg",
     "light_css_variables": {
-        "color-brand-primary": "#13294B",  # based on UNC's Navy
-        "color-brand-content": "#13294B",
+        "color-brand-primary": html_theme_options_maincolor_lighttheme,
+        "color-brand-content": html_theme_options_maincolor_lighttheme,
+        "header-height": html_theme_options_header_height,
+        "header-padding": html_theme_options_header_padding,
     },
     "dark_css_variables": {
-        "color-brand-primary": "#4B9CD3",  # based on UNC's Carolina Blue
-        "color-brand-content": "#4B9CD3",
+        "color-brand-primary": html_theme_options_maincolor_darktheme,
+        "color-brand-content": html_theme_options_maincolor_darktheme,
+        "header-height": html_theme_options_header_height,
+        "header-padding": html_theme_options_header_padding,
     },
     "sidebar_hide_name": True,
     "announcement": None,

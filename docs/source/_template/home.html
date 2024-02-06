@@ -28,6 +28,10 @@
     still not sure if we need {{ pathto('_static/ui/cover.jpg', 1) }}
 -->
 <style>
+    .page .main .content h2.slide-title {
+        padding:1em;
+        text-align:center;
+    }
     .page .main .content .slide {
         min-height:80vh;
         padding:0 2em;
@@ -52,11 +56,29 @@
     .page .main .content .card{
         padding:1.5vw;
         margin:1em 0;
+        color:#222;
         background-color:skyblue;
     }
     .page .main .content .section {
         padding:1em;
         width:100%;
+    }
+    .page .main .content .tiles{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        flex-flow:row wrap;
+        align-items:stretch;
+        align-content:stretch;
+        justify-content:space-around;
+    }
+    .page .main .content .tile{
+        min-height:20vh;
+        background-color:bisque;
+        text-align:center;
+        flex:1 1 20vw;
+        align-self:center;
+        padding:2em;
     }
     #header,#footer{
         /* Restrict width of this container to maintain consistent size/location for dark mode toggle */
@@ -73,8 +95,9 @@
         /* Forcibly override Furo theme styles with manually-defined style rules */
         #header,#footer{margin-left:calc((50% - 18.5em)*0.75)}
         .page{flex-direction:column; justify-content:center}
-        .page .main .content .slide{flex-direction:row; padding:0;}
-        .page .main .content .section-2col {width:50%}
+        .page .main .content .slide {min-height:40vh}
+        .page .main .content .slide, .page .main .content .slide-title{flex-direction:row; padding:0;}
+        .page .main .content .slide .section-2col{width:50%; padding:5vw;}
     }
 </style>
 <div class="page">
@@ -135,46 +158,65 @@
                     <h2>Rosetta democratizes ultrasound research.</h2>
                     <p>
                         Ultrasound is the most portable and accessible way to get medical images and 
-                        treat certain diseases. Rosetta is a cross-platform, free (libre) open-source 
+                        treat certain diseases. Rosetta is a free, cross-platform, open-source 
                         software library built to make ultrasound's latest discoveries and 
-                        future advancements just as democratic. Rosetta aims to accelerate 
-                        innovation and clinical translation by creating a unified, robust framework 
-                        where techniques from a variety of engineering fields can be rapidly 
-                        implemented and iterated.
+                        future advancements just as democratic.
+                    </p>
+                    <p>
+                        Rosetta is designed to accelerate innovation and clinical translation. 
+                        It's a robust framework where advanced techniques from a variety 
+                        of engineering fields are at your fingertips.
                     </p>
                 </div>
                 <div class="section section-2col">
                     <h2>Rosetta is:</h2>
                     <div class="card">
                         <b>Open-source</b>
-                        <p></p>
+                        <p>
+                            Rosetta is free and open for anyone to use, modify, and distribute - even for commercial applications.
+                        </p>
                     </div>
                     <div class="card">
                         <b>Multi-platform</b>
-                        <p></p>
+                        <p>
+                            Rosetta is designed without any particular environment in mind. Use one codebase to run the simulator or hardware of your choice.
+                        </p>
                     </div>
                     <div class="card">
                         <b>Easy to use</b>
-                        <p></p>
+                        <p>
+                            With an intuitive interface and extensive documentation, Rosetta is designed to be accessible to everyone.
+                        </p>
                     </div>
                     <div class="card">
                         <b>Flexible</b>
-                        <p></p>
+                        <p>
+                            It's easy to adapt and extend Rosetta's features to meet your specific needs - or to bring technologies from other fields into your work.
+                        </p>
                     </div>
                     <div class="card">
-                        <b>Extensible</b>
-                        <p></p>
+                        <b>Informative</b>
+                        <p>
+                            Extensive documentation and debugging tools help you gain a deeper understanding of your processes and experimental protocol.
+                        </p>
                     </div>
                 </div>
             </div>
+            <!--<h2 class="slide-title">Use cases</h2>
             <div class="slide">
-                <h2>Use cases</h2>
+                ???
             </div>
+            <h2 class="slide-title">Contributors</h2>
             <div class="slide">
-                <h2>Contributors</h2>
+                <div class="tiles">
+                    <div class="tile">test</div>
+                    <div class="tile">test</div>
+                </div>
             </div>
+            -->
         </div>
         <div class="content" id="footer" style="width:min(46em,90%);">
+            <!--Copied and preserved from the Furo theme's default page template-->
             <footer>
                 {% block footer %}
                 <div class="related-pages">
