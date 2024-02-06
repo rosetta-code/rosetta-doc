@@ -11,10 +11,8 @@ This repository contains the source files used to auto-generate documentation fo
 
 - `.vscode/` = Visual Studio Code configurations.
 - `docs/` = Root that houses the Sphinx source code.
-
   - `source/` = Source files that gets reinterpreted by Sphinx into web-friendly files.
   - `make.bat` and `Makefile` = Configuration files to build this documentation.
-
 - `pyproject.toml`, `.gitignore`, `.prettierignore`, and `.readthedocs.yaml` = Additional configurations for Git, Prettier (code auto-reformatting), and ReadTheDocs (web provider for the live version of this documentation).
 - `requirements.txt` and `environment.yml` = Packages to recreate the development environment for this documentation using Pip and Conda respectively.
 
@@ -25,5 +23,7 @@ To render the Sphinx document as HTML files, run the command below.
 `sphinx-build -M html docs/source/ docs/build/`
 
 ## License
+
+See the attached license file for more information.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_large)
