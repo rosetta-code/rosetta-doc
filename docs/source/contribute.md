@@ -22,25 +22,21 @@ Are you tired of waiting for someone else to fix a bug or add a feature? You can
 
 2. **Make your contribution.** Make the changes you see fit. You can record changes you make in Git by periodically making {term}`commits<Commit>` to your local repo.
 
-3. **Submit your work.** {term}`Push` your changes to your own {term}`fork<Fork>` of Rosetta on GitHub, then submit a {term}`pull request<Pull request>` for your work. To have your pull request accepted, you will need to:
+3. **Submit your work.** {term}`Push` your changes to a {term}`fork<Fork>` of Rosetta on your own GitHub account, then submit a {term}`pull request<Pull request>` for your work. To have your pull request accepted to a repo's `main` branch, you will need to:
 
-    1. Make a valid push to a `dev` or feature branch
+    1. **Make a valid push** to a `dev` or feature branch.
 
-    2. Describe the change that you proposed and why it's helpful
+    2. **Describe the change** that you proposed and why it's helpful.
 
-    3. Pass a license compliance test automatically performed by FOSSA
+    3. **Pass code tests** to make sure that your code doesn't break things.
+  
+    4. **Pass a license compliance test** automatically performed by FOSSA.
 
-    4. *Unless you're changing documentation:* Pass tests to make sure that your code doesn't break things
+    5. ***Pass a security test** automatically performed by Snyk.
+  
+    6. **Pass a code quality test** automatically performed by Codacy.
 
-    5. *Main branch releases only:* pass a security test automatically performed by Snyk
-
-    6. Receive approval of your push from a Rosetta moderator
-
-% There are some additional steps to keep in mind if your contribution involves creating a new {term}`Adapter` or our documentation. Please take a look at the additional guidance below:
-%
-% ### Create a new Adapter
-%
-% ???
+    7. **Participate in your pull request's conversation thread** so that a Rosetta moderator can approve your request.
 
 ### Enhance our documentation
 
