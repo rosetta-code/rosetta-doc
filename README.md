@@ -1,9 +1,10 @@
 # Rosetta Documentation
 
-![Rosetta logo](./docs/source/_static/brand/rosetta-logo-dark.png)
+[Rosetta logo](./docs/source/_static/brand/rosetta-logo-dark.png)
 [![Codacy code quality assurance grade](https://app.codacy.com/project/badge/Grade/bd9c47a3f878470dab5c8450d8beb74a)](https://app.codacy.com/gh/rosetta-code/rosetta-doc/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![FOSSA license compliance status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_shield)
 [![ReadTheDocs documentation build status](https://readthedocs.org/projects/rosetta-doc/badge/?version=latest)](https://rosetta-doc.readthedocs.io/en/latest/?badge=latest)
+[![All Contributors](https://img.shields.io/github/all-contributors/rosetta-code/rosetta-doc?color=ee8449)](#contributors)
 
 This repository contains source files used to auto-generate documentation for Rosetta using Sphinx.
 
