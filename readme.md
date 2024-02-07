@@ -1,5 +1,5 @@
 # Rosetta Documentation
-![Rosetta logo]("./docs/source/_static/brand/rosetta-logo-dark.svg")
+![Rosetta logo](./docs/source/_static/brand/rosetta-logo-dark.png)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_shield)
 [![Documentation Status](https://readthedocs.org/projects/rosetta-doc/badge/?version=latest)](https://rosetta-doc.readthedocs.io/en/latest/?badge=latest)
 
