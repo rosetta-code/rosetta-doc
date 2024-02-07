@@ -4,9 +4,9 @@
 [![FOSSA license compliance status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_shield)
 [![ReadTheDocs documentation build status](https://readthedocs.org/projects/rosetta-doc/badge/?version=latest)](https://rosetta-doc.readthedocs.io/en/latest/?badge=latest)
 
-This repository contains the source files used to auto-generate documentation for Rosetta using Sphinx.
+This repository contains source files used to auto-generate documentation for Rosetta using Sphinx.
 
-## Contents of this Repository
+## Contents of this repository
 
 - `.vscode/` = Visual Studio Code configurations.
 - `docs/` = Root that houses the Sphinx source code.
@@ -15,7 +15,7 @@ This repository contains the source files used to auto-generate documentation fo
 - `pyproject.toml`, `.gitignore`, `.prettierignore`, and `.readthedocs.yaml` = Additional configurations for Git, Prettier (code auto-reformatting), and ReadTheDocs (web provider for the live version of this documentation).
 - `requirements.txt` and `environment.yml` = Packages to recreate the development environment for this documentation using Pip and Conda respectively.
 
-## Building the document
+## Locally building the document
 
 To render the Sphinx document as HTML files, run the command below.
 
@@ -23,6 +23,6 @@ To render the Sphinx document as HTML files, run the command below.
 
 ## License
 
-See the attached license file for more information.
+See the attached license file for more information. License term compliance is inspected using FOSSA:
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_large)
