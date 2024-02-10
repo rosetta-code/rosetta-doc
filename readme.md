@@ -1,4 +1,5 @@
 # Rosetta Documentation
+
 ![Rosetta logo](./docs/source/_static/brand/rosetta-logo-dark.png)
 [![Codacy code quality assurance grade](https://app.codacy.com/project/badge/Grade/bd9c47a3f878470dab5c8450d8beb74a)](https://app.codacy.com/gh/rosetta-code/rosetta-doc/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![FOSSA license compliance status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_shield)
@@ -26,3 +27,14 @@ To render the Sphinx document as HTML files, run the command below.
 See the attached license file for more information. License term compliance is inspected using FOSSA:
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frosetta-code%2Frosetta-doc?ref=badge_large)
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
