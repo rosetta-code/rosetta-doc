@@ -1,15 +1,12 @@
 {
-  "projectName": "rosetta-doc",
-  "projectOwner": "rosetta-code",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "files": ["readme.md"],
-  "imageSize": 50,
-  "commit": false,
-  "commitConvention": "none",
-  "contributorsPerLine": 7,
-  "contributorsSortAlphabetically": false,
-  "linkToUsage": true,
-  "skipCi": true,
-  "contributors": []
+"projectName": "rosetta-doc",
+"projectOwner": "rosetta-code",
+"repoType": "github",
+"repoHost": "https://github.com",
+"files": ["readme.md"],
+"commitConvention": "none",
+"contributorsSortAlphabetically": false,
+"linkToUsage": true,
+"skipCi": true,
+"contributors": []
 }
