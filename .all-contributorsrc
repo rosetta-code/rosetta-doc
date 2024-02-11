@@ -1,8 +1,0 @@
-{
-  "projectName": "rosetta-doc",
-  "projectOwner": "rosetta-code",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "files": ["readme.md"],
-  "commitConvention": "none"
-}
