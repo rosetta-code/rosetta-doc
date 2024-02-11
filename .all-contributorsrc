@@ -4,5 +4,5 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": ["readme.md"],
-  "commitConvention": "none",
+  "commitConvention": "none"
 }
