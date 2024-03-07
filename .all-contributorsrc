@@ -1,25 +1,4 @@
 {
   "projectName": "rosetta-doc",
-  "projectOwner": "rosetta-code",
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "contributors": [
-    {
-      "login": "keitaay",
-      "name": "Keita A. Yokoyama",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35097043?v=4",
-      "profile": "https://keitaay.com",
-      "contributions": [
-        "doc"
-      ]
-    }
-  ],
-  "repoType": "github",
-  "contributorsPerLine": 7,
-  "repoHost": "https://github.com",
-  "commitConvention": "none",
-  "skipCi": true,
-  "commitType": "docs"
+  "projectOwner": "rosetta-code"
 }
