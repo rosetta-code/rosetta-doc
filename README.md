@@ -33,17 +33,8 @@ See the attached license file for more information. License term compliance is i
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/35097043?v=4?s=100" width="100px;" alt="Kéita A. Yokoyama"/><br /><sub><b>Kéita A. Yokoyama</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=keitaay" title="Documentation">📖</a></td>
-    </tr>
-  </tbody>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-Rosetta follows the [all-contributors](https://allcontributors.org) specification to provide credit in its repository. [Many types of contributions](https://allcontributors.org/docs/en/emoji-key) are welcomed - even if they don't involve any sort of scientific developments or coding!
