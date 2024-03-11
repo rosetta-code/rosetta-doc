@@ -194,3 +194,47 @@ dmypy.json
 
 # Python: Cython debug symbols
 cython_debug/
+
+# Node.js: Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Node.js: Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Node.js: Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node.js: Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Node.js: Dependency directories
+node_modules/
+jspm_packages/
+
+# Node.js: Optional npm cache directory
+.npm
+
+# Node.js: Optional eslint cache
+.eslintcache
+
+# Node.js: Optional REPL history
+.node_repl_history
+
+# Node.js: Output of 'npm pack'
+*.tgz
+
+# Node.js: dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
